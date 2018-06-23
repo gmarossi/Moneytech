@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: sans-serif
+}
+
+header{
+    margin: 0;
+    background-color: #0f490f;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+
+}
+
+.logo{
+    height: 100px;
+}
+
+h1{
+    margin: 0;
+    margin-left: 400px;
+    font-size: 50px;
+    color: white;
+}
+
+ul{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.simulação{
+    background-image: url(img/simulação.jpg);
+    background-size: cover;
+    height: 500px;
+    margin: 0;
+    overflow: auto;
+}
+.simulação ul{
+    margin-top: 100px;
+}
+
+.paras{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
